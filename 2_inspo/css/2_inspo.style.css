@@ -7,6 +7,12 @@ for now, you can leave these alone */
     box-sizing: border-box;
 }
 
+html {
+    color: #26241C;
+    background-image: linear-gradient(black and white ) !important; 
+     
+}
+
 h1 {
     font-size: 2.5rem;
     text-align: center;
@@ -25,12 +31,6 @@ h4 {
     margin-bottom: 1rem;
 }
 
-body {
-
-    color: #26241C;
-    background-color: #c6f3e4;
-}
-
 img {
     width: 50%;
     display: block;
@@ -38,32 +38,32 @@ img {
     margin-bottom: 1rem;
 }
 
-nav {
-  background-color: black;
-  padding: 10px;
-}
-
-nav ul {
+section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  list-style: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: space-between;
 }
 
-nav li {
-  background-color: black;
-  padding: 7px 20px;
+section p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 25px;
-  font-family: "Oswald", sans-serif;
+
+.akira {
+  width: 50%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
+
 }
 
-nav a:hover {
-  color: rgb(176, 175, 175);
+.david {
+  width: 35%
+}
+
+.ghibli {
+  width: 50%;
+  margin: 2.5% 2.5% 2.5% 2.5%;
 }
