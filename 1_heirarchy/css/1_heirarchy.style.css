@@ -1,0 +1,71 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+h1 {
+    color: #050505;
+    text-align: center;
+    font-size: 4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: #050505;
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0.2em;
+}
+
+h3 {
+    color: #050505;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.3em;
+}
+
+body {
+    color: #26241C;
+    background-color: #F2F0D8;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+nav {
+  background-color: black;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+nav li {
+  background-color: black;
+  padding: 7px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+nav a:hover {
+  color: rgb(176, 175, 175);
+}

@@ -1,0 +1,107 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+nav {
+    background-color: rgb(146, 253, 255);
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 97, 146);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+
+h1 a {
+    text-decoration: none;
+    font-size: 37px;
+    text-transform: uppercase;
+    color: rgb(56, 56, 56);
+    font-family: "Josefin Sans" , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(146, 253, 255);
+}
+
+h3 {
+    font-size: 18px;
+    color: rgb(0, 97, 146);
+    font-family: "Josefin Sans" , sans-serif;
+}
+
+h2 {
+    font-size: 22.5px;
+    font-family: Lato;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+    font-family: Lato;
+    font-size: 15px;
+}
+
+.images {
+    display: flex;
+    margin-top: 5%;
+    margin: auto;
+}
+
+.images img {
+  width: 20%;
+  height: auto;
+  padding: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(56, 56, 56);
+}
+
+footer {
+    background-color: rgb(0, 133, 200); 
+    display: block;  
+    padding: 20px 20px;
+}
+
+.social-links {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.copyright {
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: black;
+}
