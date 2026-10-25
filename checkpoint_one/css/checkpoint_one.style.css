@@ -116,8 +116,8 @@ header {
 
 body {
     font-family: "Archivo", sans-serif;
-    background-image: linear-gradient( to top, #050505, #9c1c1c);
-    color: #e0e0e0;
+    background-image: linear-gradient( to top, #b5b5b5, #aa3d3d);
+    color: #0b0b0b;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -164,4 +164,40 @@ h3 {
     align-items: center;
     padding-bottom: 50px;
     padding-top: 25px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+    padding: 30px;
+}
+
+section article {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+}
+
+section article h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section article img {
+    display: block;
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto 20px;
+}
+
+section article p {
+    text-align: baseline;
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    max-width: 90%;
 }
