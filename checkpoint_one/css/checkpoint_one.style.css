@@ -125,19 +125,10 @@ body {
 h1 {
     text-align: left;
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
-}
-
-h2 {
-    text-align: left;
-    font-size: 30px;
-    padding-bottom: 20px;
-    font-size: 40px;
-    margin-left: 30px;
-    margin-right: 30px; 
 }
 
 p {
@@ -149,14 +140,7 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h3 {
-    text-align: left;
-    font-size: 30px;
-    padding-bottom: 20px;
-    font-size: 40px;
-    margin-left: 30px;
-    margin-right: 30px; 
-}
+ 
 
 .wireframe {
     display: flex;
