@@ -95,16 +95,18 @@ hint: adjust the first two value only if they are negative values to begin with,
 }
 
 #starThree:hover {
-  transform : translate(10px, 50px) rotate(767deg) skew(20deg, 20deg);
+  transform : translate(-20%, 50%) rotate(767deg);
 }
 
 #starFour:hover {
   transform :  rotate(767deg) skew(20deg, 20deg);
 }
 
-/* .circle:hover {
-  box-shadow: ;
-} */
+.circle:hover {
+  box-shadow: 10px 5px 50px 15px rgba(246, 241, 213, .5);
+  transition-duration: 2s;
+  transform: translate(50%, 10%);
+}
 
 
 
