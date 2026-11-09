@@ -9,9 +9,9 @@
 /* This is when hover over the explore button, the background color will automatically change to different color*/
 
 body {
+    height: 100%;
     font-family: "Archivo", sans-serif;
     background-image: linear-gradient( to top, #9c1c1c, #f8f8f8);
-
     color: #111;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
