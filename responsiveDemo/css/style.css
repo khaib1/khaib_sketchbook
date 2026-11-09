@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-sizing: border-box;
+}
+
+body {
+
+  height: 50%;
+  min-height: auto;
+  width: 100%;
+  /* set width to what? */
+  background-color: lightblue;
+  /* margin: ?; */
+  margin: 0 auto;
+ }
+
+ #topPage {
+  /* display: ?; \
+  /* what else? */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+ }
+
+ #logo {
+  width: 200px;
+}
+
+#pagetitle {
+  background-color: rgb(0,0,255);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+ h1 {
+  font-size: 3.25rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+a {
+  color: chartreuse;
+} 
+
+.bodytext {
+  padding-left: 25px;
+}
+
+/* --------styles--------------- */
+
+.directions {
+  background-color: blueviolet;
+  color: aquamarine;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#viewport {
+  background-color: rgb(200,255,100);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#viewportImage {
+  display: flex;
+  width: 50%;
+}
+
+#before, #after {
+  border: 1px solid black;
+  width: 40%;
+}
+
+#beforeAfter {
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#gifs {
+  background-color: coral;
+  /* display: ? */
+  /* what else */
+  /* what else */
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+#leftgif, #centergif, #rightgif {
+  border: 1px solid black;
+
+}
+
+.gifsSize {
+  width: 100%;
+}
+
+.bodytext {
+
+  background-color: cyan;
+
+}
+
+#media {
+  background-color: hotpink;
+}  
+
+/* -------- media queries --------- */
+
+@media screen and (max-width: 600px) {
+   #topPage {
+  /* display: ?; \
+  /* what else? */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  }
+
+  #viewportImage {
+    width: 75%;
+  }
+  
+  body {
+    font-size: 80%;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  #gifs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #media img {
+    width: 75%;
+  }
+}
